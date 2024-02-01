@@ -1,4 +1,3 @@
-#fuck by mr.mivi
 import requests,bs4,json,os,sys,random,datetime,time,re,getpass
 import urllib3,rich,base64
 os.system('pkg install espeak')
@@ -26,12 +25,12 @@ os.system('clear')
 print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92m𝐅𝐨𝐥𝐥𝐨𝐰 𝐦𝐲 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐩𝐫𝐨𝐟𝐢𝐥𝐞")
 os.system('espeak -a 300 " FOLLOW MY FACEBOOK PROFILE"')
 time.sleep(2)
-os.system(f'xdg-open https://www.facebook.com/Tomago.Shahed.Vaiya.Okey')
+os.system(f'xdg-open https://www.facebook.com/reysyyy')
 time.sleep(5)
 print("\033[97;1m[\033[92;1m+\033[97;1m] \033[0;92m𝐅𝐨𝐥𝐥𝐨𝐰 𝐦𝐲 𝗚𝗶𝘁𝗵𝘂𝗯 𝐩𝐫𝐨𝐟𝐢𝐥𝐞")
 os.system('espeak -a 300 " FOLLOW MY GITHUB PROFILE"')
 time.sleep(2)
-os.system(f'xdg-open https://github.com/Bdshahed')
+os.system(f'xdg-open https://github.com/YukihiraSen')
 ua = ['Mozilla/5.0 (Linux; Android 7.0; MS50L Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/429.0.0.27.114;]',]
 ua = ['Mozilla/5.0 (Linux; Android 8.0.0; SM-J600GT) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.111 Mobile Safari/537.36',]
 ua = ["Mozilla/5.0 (Linux; Android 10; Redmi 5 Plus) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.96 Mobile Safari/537.36",]
@@ -342,7 +341,7 @@ def clear():
 def back():
     login()
 def contact():
-   # os.system('xdg-open https://www.facebook.com/Tutul.King.Ok.Bro')
+   # os.system('xdg-open https://www.facebook.com/reysyyy')
     back()
 def linex():
     print('\033[1;37m')
@@ -417,12 +416,12 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Bdshahed/Paid/blob/main/paid.txt').text
+    httpCaht = requests.get('https://github.com/YukihiraSen/Yuki/blob/main/approval.txt').text
     if id in httpCaht:
       print("\33[1;32m[•] 𝐘𝐨𝐮 𝐤𝐞𝐲 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐲 𝐀𝐩𝐨𝐫𝐨𝐯𝐞𝐝")
       os.system('espeak -a 300 " permission granted"')
       time.sleep(0.2)
-      os.system('espeak -a 300 " WELCOME TO BD_SHAHED FILE CLONING TOOLS"')
+      os.system('espeak -a 300 " WELCOME TO YUKI FILE CLONING TOOLS"')
       msg = str(os.geteuid())
       time.sleep(0.5)
       menu()
@@ -438,7 +437,7 @@ def approval():
       print('\33[1;37m=========================================================')
       print ('\33[1;32m[•] Click Enter To Sent Key Admin WhatsApp')
       input('\33[1;32m[•] Click The Enter >')
-      tks = ('AssalamuAlaylum%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+8801306109043?text='+tks)
+      tks = ('Hello%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+639635303304?text='+tks)
       time.sleep(1)
       exit()
   except:
@@ -548,7 +547,7 @@ def menu():
     elif RIPON in ['1']:
         crack_file()
     elif RIPON in ['2','02']:
-        os.system('xdg-open https://wa.me/+8801306109043')
+        os.system('xdg-open https://wa.me/+639635303304')
         os.system("python nono.py")
     elif RIPON in ['3','03']:
         result()
